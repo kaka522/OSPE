@@ -782,9 +782,9 @@
             // 
             this.btnSearch.Image = global::OSPE.Properties.Resources.Search16;
             this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearch.Location = new System.Drawing.Point(563, 12);
+            this.btnSearch.Location = new System.Drawing.Point(740, 12);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(82, 32);
+            this.btnSearch.Size = new System.Drawing.Size(102, 32);
             this.btnSearch.TabIndex = 10;
             this.btnSearch.Text = "Search (F3)";
             this.btnSearch.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -794,7 +794,7 @@
             // radioSearchHex
             // 
             this.radioSearchHex.AutoSize = true;
-            this.radioSearchHex.Location = new System.Drawing.Point(513, 33);
+            this.radioSearchHex.Location = new System.Drawing.Point(690, 23);
             this.radioSearchHex.Name = "radioSearchHex";
             this.radioSearchHex.Size = new System.Drawing.Size(44, 17);
             this.radioSearchHex.TabIndex = 9;
@@ -806,7 +806,7 @@
             // 
             this.radioSearchString.AutoSize = true;
             this.radioSearchString.Checked = true;
-            this.radioSearchString.Location = new System.Drawing.Point(455, 33);
+            this.radioSearchString.Location = new System.Drawing.Point(620, 23);
             this.radioSearchString.Name = "radioSearchString";
             this.radioSearchString.Size = new System.Drawing.Size(52, 17);
             this.radioSearchString.TabIndex = 8;
@@ -820,9 +820,9 @@
             this.btnStopCapture.Enabled = false;
             this.btnStopCapture.Image = global::OSPE.Properties.Resources.Stop16;
             this.btnStopCapture.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStopCapture.Location = new System.Drawing.Point(209, 12);
+            this.btnStopCapture.Location = new System.Drawing.Point(234, 12);
             this.btnStopCapture.Name = "btnStopCapture";
-            this.btnStopCapture.Size = new System.Drawing.Size(92, 32);
+            this.btnStopCapture.Size = new System.Drawing.Size(102, 32);
             this.btnStopCapture.TabIndex = 7;
             this.btnStopCapture.Text = "Stop Capture";
             this.btnStopCapture.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -831,9 +831,9 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(455, 12);
+            this.txtSearch.Location = new System.Drawing.Point(510, 19);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(102, 20);
+            this.txtSearch.Size = new System.Drawing.Size(102, 17);
             this.txtSearch.TabIndex = 6;
             this.txtSearch.Text = "Search...";
             this.txtSearch.Enter += new System.EventHandler(this.txtSearch_Enter);
@@ -841,7 +841,7 @@
             // checkBoxViewAsHex
             // 
             this.checkBoxViewAsHex.AutoSize = true;
-            this.checkBoxViewAsHex.Location = new System.Drawing.Point(372, 12);
+            this.checkBoxViewAsHex.Location = new System.Drawing.Point(417, 12);
             this.checkBoxViewAsHex.Name = "checkBoxViewAsHex";
             this.checkBoxViewAsHex.Size = new System.Drawing.Size(80, 17);
             this.checkBoxViewAsHex.TabIndex = 5;
@@ -854,9 +854,9 @@
             this.btnClearPacketList.Enabled = false;
             this.btnClearPacketList.Image = global::OSPE.Properties.Resources.Delete216;
             this.btnClearPacketList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClearPacketList.Location = new System.Drawing.Point(307, 12);
+            this.btnClearPacketList.Location = new System.Drawing.Point(342, 12);
             this.btnClearPacketList.Name = "btnClearPacketList";
-            this.btnClearPacketList.Size = new System.Drawing.Size(57, 32);
+            this.btnClearPacketList.Size = new System.Drawing.Size(67, 32);
             this.btnClearPacketList.TabIndex = 4;
             this.btnClearPacketList.Text = "Clear";
             this.btnClearPacketList.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -888,7 +888,7 @@
             // chkAutoScroll
             // 
             this.chkAutoScroll.AutoSize = true;
-            this.chkAutoScroll.Location = new System.Drawing.Point(372, 30);
+            this.chkAutoScroll.Location = new System.Drawing.Point(417, 30);
             this.chkAutoScroll.Name = "chkAutoScroll";
             this.chkAutoScroll.Size = new System.Drawing.Size(77, 17);
             this.chkAutoScroll.TabIndex = 1;
@@ -900,9 +900,9 @@
             // 
             this.btnStartPauseCapture.Image = global::OSPE.Properties.Resources.Play16;
             this.btnStartPauseCapture.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStartPauseCapture.Location = new System.Drawing.Point(103, 12);
+            this.btnStartPauseCapture.Location = new System.Drawing.Point(118, 12);
             this.btnStartPauseCapture.Name = "btnStartPauseCapture";
-            this.btnStartPauseCapture.Size = new System.Drawing.Size(100, 32);
+            this.btnStartPauseCapture.Size = new System.Drawing.Size(110, 32);
             this.btnStartPauseCapture.TabIndex = 0;
             this.btnStartPauseCapture.Text = "Start Capture";
             this.btnStartPauseCapture.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1921,11 +1921,11 @@
             this.Controls.Add(this.statusStripMain);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStripMain);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStripMain;
             this.MinimumSize = new System.Drawing.Size(495, 500);
             this.Name = "MainForm";
-            this.Text = "OSPE - Open Source Packet Editor";
+            this.Text = "QWPE - Supports X86 and X64";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.Resize += new System.EventHandler(this.frmMain_Resize);
             this.menuStripMain.ResumeLayout(false);
