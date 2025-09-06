@@ -275,15 +275,15 @@
             this.tsmiMenuExit});
             this.programToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.programToolStripMenuItem.Name = "programToolStripMenuItem";
-            this.programToolStripMenuItem.Size = new System.Drawing.Size(65, 22);
-            this.programToolStripMenuItem.Text = "Program";
+            this.programToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
+            this.programToolStripMenuItem.Text = "程序";
             this.programToolStripMenuItem.Click += new System.EventHandler(this.tsmiProgram_Click);
             // 
             // tsmiMenuSelectProcess
             // 
             this.tsmiMenuSelectProcess.Image = global::OSPE.Properties.Resources.Magnifying_glass16;
             this.tsmiMenuSelectProcess.Name = "tsmiMenuSelectProcess";
-            this.tsmiMenuSelectProcess.Size = new System.Drawing.Size(170, 22);
+            this.tsmiMenuSelectProcess.Size = new System.Drawing.Size(183, 22);
             this.tsmiMenuSelectProcess.Text = "Select Process";
             this.tsmiMenuSelectProcess.Click += new System.EventHandler(this.tsmiSelectProcess_Click);
             // 
@@ -291,20 +291,20 @@
             // 
             this.tsmiMenuInjectLast.Image = global::OSPE.Properties.Resources.Counterclockwise_arrow16;
             this.tsmiMenuInjectLast.Name = "tsmiMenuInjectLast";
-            this.tsmiMenuInjectLast.Size = new System.Drawing.Size(170, 22);
+            this.tsmiMenuInjectLast.Size = new System.Drawing.Size(183, 22);
             this.tsmiMenuInjectLast.Text = "Inject Last Process";
             this.tsmiMenuInjectLast.Click += new System.EventHandler(this.tsmiInjectLast_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(167, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(180, 6);
             // 
             // tsmiMenuExit
             // 
             this.tsmiMenuExit.Image = global::OSPE.Properties.Resources.logout24;
             this.tsmiMenuExit.Name = "tsmiMenuExit";
-            this.tsmiMenuExit.Size = new System.Drawing.Size(170, 22);
+            this.tsmiMenuExit.Size = new System.Drawing.Size(183, 22);
             this.tsmiMenuExit.Text = "Exit";
             this.tsmiMenuExit.Click += new System.EventHandler(this.tsmiExit_Click);
             // 
@@ -320,40 +320,40 @@
             this.toolStripSeparator7,
             this.listToolStripMenuItem2});
             this.captureToolStripMenuItem.Name = "captureToolStripMenuItem";
-            this.captureToolStripMenuItem.Size = new System.Drawing.Size(61, 22);
-            this.captureToolStripMenuItem.Text = "Capture";
+            this.captureToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
+            this.captureToolStripMenuItem.Text = "捕获";
             // 
             // tsmiMenuStartCapture
             // 
             this.tsmiMenuStartCapture.Image = global::OSPE.Properties.Resources.Play16;
             this.tsmiMenuStartCapture.Name = "tsmiMenuStartCapture";
-            this.tsmiMenuStartCapture.Size = new System.Drawing.Size(143, 22);
-            this.tsmiMenuStartCapture.Text = "Start Capture";
+            this.tsmiMenuStartCapture.Size = new System.Drawing.Size(146, 22);
+            this.tsmiMenuStartCapture.Text = "开始捕获";
             // 
             // tsmiMenuStopCapture
             // 
             this.tsmiMenuStopCapture.Image = global::OSPE.Properties.Resources.Stop16;
             this.tsmiMenuStopCapture.Name = "tsmiMenuStopCapture";
-            this.tsmiMenuStopCapture.Size = new System.Drawing.Size(143, 22);
-            this.tsmiMenuStopCapture.Text = "Stop Capture";
+            this.tsmiMenuStopCapture.Size = new System.Drawing.Size(146, 22);
+            this.tsmiMenuStopCapture.Text = "停止捕获";
             // 
             // tsmiClearList
             // 
             this.tsmiClearList.Image = global::OSPE.Properties.Resources.Delete216;
             this.tsmiClearList.Name = "tsmiClearList";
-            this.tsmiClearList.Size = new System.Drawing.Size(143, 22);
+            this.tsmiClearList.Size = new System.Drawing.Size(146, 22);
             this.tsmiClearList.Text = "Clear";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(140, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(143, 6);
             // 
             // tsmiViewAsHex
             // 
             this.tsmiViewAsHex.CheckOnClick = true;
             this.tsmiViewAsHex.Name = "tsmiViewAsHex";
-            this.tsmiViewAsHex.Size = new System.Drawing.Size(143, 22);
+            this.tsmiViewAsHex.Size = new System.Drawing.Size(146, 22);
             this.tsmiViewAsHex.Text = "View as Hex";
             this.tsmiViewAsHex.Click += new System.EventHandler(this.tsmiViewAsHex_Click);
             // 
@@ -361,14 +361,14 @@
             // 
             this.tsmiAutoScroll.CheckOnClick = true;
             this.tsmiAutoScroll.Name = "tsmiAutoScroll";
-            this.tsmiAutoScroll.Size = new System.Drawing.Size(143, 22);
+            this.tsmiAutoScroll.Size = new System.Drawing.Size(146, 22);
             this.tsmiAutoScroll.Text = "Auto Scroll";
             this.tsmiAutoScroll.Click += new System.EventHandler(this.tsmiAutoScroll_Click);
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(140, 6);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(143, 6);
             // 
             // listToolStripMenuItem2
             // 
@@ -377,27 +377,27 @@
             this.loadToolStripMenuItemCapture,
             this.clearToolStripMenuItem2Capture});
             this.listToolStripMenuItem2.Name = "listToolStripMenuItem2";
-            this.listToolStripMenuItem2.Size = new System.Drawing.Size(143, 22);
+            this.listToolStripMenuItem2.Size = new System.Drawing.Size(146, 22);
             this.listToolStripMenuItem2.Text = "List";
             // 
             // saveToolStripMenuItemCapture
             // 
             this.saveToolStripMenuItemCapture.Name = "saveToolStripMenuItemCapture";
-            this.saveToolStripMenuItemCapture.Size = new System.Drawing.Size(101, 22);
+            this.saveToolStripMenuItemCapture.Size = new System.Drawing.Size(106, 22);
             this.saveToolStripMenuItemCapture.Text = "Save";
             this.saveToolStripMenuItemCapture.Click += new System.EventHandler(this.tsmiCaptureListSave_Click);
             // 
             // loadToolStripMenuItemCapture
             // 
             this.loadToolStripMenuItemCapture.Name = "loadToolStripMenuItemCapture";
-            this.loadToolStripMenuItemCapture.Size = new System.Drawing.Size(101, 22);
+            this.loadToolStripMenuItemCapture.Size = new System.Drawing.Size(106, 22);
             this.loadToolStripMenuItemCapture.Text = "Load";
             this.loadToolStripMenuItemCapture.Click += new System.EventHandler(this.tsmiCaptureListLoad_Click);
             // 
             // clearToolStripMenuItem2Capture
             // 
             this.clearToolStripMenuItem2Capture.Name = "clearToolStripMenuItem2Capture";
-            this.clearToolStripMenuItem2Capture.Size = new System.Drawing.Size(101, 22);
+            this.clearToolStripMenuItem2Capture.Size = new System.Drawing.Size(106, 22);
             this.clearToolStripMenuItem2Capture.Text = "Clear";
             this.clearToolStripMenuItem2Capture.Click += new System.EventHandler(this.tsmiCaptureListClear_Click);
             // 
@@ -410,28 +410,28 @@
             this.listToolStripMenuItem1});
             this.filtersToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.filtersToolStripMenuItem.Name = "filtersToolStripMenuItem";
-            this.filtersToolStripMenuItem.Size = new System.Drawing.Size(50, 22);
-            this.filtersToolStripMenuItem.Text = "Filters";
+            this.filtersToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
+            this.filtersToolStripMenuItem.Text = "过滤";
             // 
             // tsmiActiveFilters
             // 
             this.tsmiActiveFilters.CheckOnClick = true;
             this.tsmiActiveFilters.Name = "tsmiActiveFilters";
-            this.tsmiActiveFilters.Size = new System.Drawing.Size(152, 22);
+            this.tsmiActiveFilters.Size = new System.Drawing.Size(162, 22);
             this.tsmiActiveFilters.Text = "Active Filters";
             this.tsmiActiveFilters.Click += new System.EventHandler(this.tsmiActiveFilters_CheckedChanged);
             // 
             // addNewFilterToolStripMenuItem
             // 
             this.addNewFilterToolStripMenuItem.Name = "addNewFilterToolStripMenuItem";
-            this.addNewFilterToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.addNewFilterToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.addNewFilterToolStripMenuItem.Text = "Add New Filter";
             this.addNewFilterToolStripMenuItem.Click += new System.EventHandler(this.tsmiFilterListAddNew_Click);
             // 
             // toolStripSeparator9
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator9.Size = new System.Drawing.Size(159, 6);
             // 
             // listToolStripMenuItem1
             // 
@@ -441,34 +441,34 @@
             this.saveAsToolStripMenuItem2,
             this.clearToolStripMenuItem1});
             this.listToolStripMenuItem1.Name = "listToolStripMenuItem1";
-            this.listToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.listToolStripMenuItem1.Size = new System.Drawing.Size(162, 22);
             this.listToolStripMenuItem1.Text = "List";
             // 
             // openToolStripMenuItem1
             // 
             this.openToolStripMenuItem1.Name = "openToolStripMenuItem1";
-            this.openToolStripMenuItem1.Size = new System.Drawing.Size(111, 22);
+            this.openToolStripMenuItem1.Size = new System.Drawing.Size(117, 22);
             this.openToolStripMenuItem1.Text = "Open";
             this.openToolStripMenuItem1.Click += new System.EventHandler(this.tsmiFilterListLoad_Click);
             // 
             // saveToolStripMenuItem1
             // 
             this.saveToolStripMenuItem1.Name = "saveToolStripMenuItem1";
-            this.saveToolStripMenuItem1.Size = new System.Drawing.Size(111, 22);
+            this.saveToolStripMenuItem1.Size = new System.Drawing.Size(117, 22);
             this.saveToolStripMenuItem1.Text = "Save";
             this.saveToolStripMenuItem1.Click += new System.EventHandler(this.tsmiFilterListSave_Click);
             // 
             // saveAsToolStripMenuItem2
             // 
             this.saveAsToolStripMenuItem2.Name = "saveAsToolStripMenuItem2";
-            this.saveAsToolStripMenuItem2.Size = new System.Drawing.Size(111, 22);
+            this.saveAsToolStripMenuItem2.Size = new System.Drawing.Size(117, 22);
             this.saveAsToolStripMenuItem2.Text = "SaveAs";
             this.saveAsToolStripMenuItem2.Click += new System.EventHandler(this.tsmiFilterListSave_Click);
             // 
             // clearToolStripMenuItem1
             // 
             this.clearToolStripMenuItem1.Name = "clearToolStripMenuItem1";
-            this.clearToolStripMenuItem1.Size = new System.Drawing.Size(111, 22);
+            this.clearToolStripMenuItem1.Size = new System.Drawing.Size(117, 22);
             this.clearToolStripMenuItem1.Text = "Clear";
             this.clearToolStripMenuItem1.Click += new System.EventHandler(this.tsmiFilterListClear_Click);
             // 
@@ -481,33 +481,33 @@
             this.tsmiActiveCustomFilters});
             this.scriptsToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.scriptsToolStripMenuItem.Name = "scriptsToolStripMenuItem";
-            this.scriptsToolStripMenuItem.Size = new System.Drawing.Size(72, 22);
-            this.scriptsToolStripMenuItem.Text = "Advanced";
+            this.scriptsToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
+            this.scriptsToolStripMenuItem.Text = "高级";
             // 
             // tsmiPacketInjector
             // 
             this.tsmiPacketInjector.Name = "tsmiPacketInjector";
-            this.tsmiPacketInjector.Size = new System.Drawing.Size(185, 22);
+            this.tsmiPacketInjector.Size = new System.Drawing.Size(195, 22);
             this.tsmiPacketInjector.Text = "Packet Injector";
             this.tsmiPacketInjector.Click += new System.EventHandler(this.tsmiPacketInjector_Click);
             // 
             // tsmiScriptEditor
             // 
             this.tsmiScriptEditor.Name = "tsmiScriptEditor";
-            this.tsmiScriptEditor.Size = new System.Drawing.Size(185, 22);
+            this.tsmiScriptEditor.Size = new System.Drawing.Size(195, 22);
             this.tsmiScriptEditor.Text = "Script Editor";
             this.tsmiScriptEditor.Click += new System.EventHandler(this.tsmiScriptEditor_Click);
             // 
             // toolStripSeparator12
             // 
             this.toolStripSeparator12.Name = "toolStripSeparator12";
-            this.toolStripSeparator12.Size = new System.Drawing.Size(182, 6);
+            this.toolStripSeparator12.Size = new System.Drawing.Size(192, 6);
             // 
             // tsmiActiveCustomFilters
             // 
             this.tsmiActiveCustomFilters.CheckOnClick = true;
             this.tsmiActiveCustomFilters.Name = "tsmiActiveCustomFilters";
-            this.tsmiActiveCustomFilters.Size = new System.Drawing.Size(185, 22);
+            this.tsmiActiveCustomFilters.Size = new System.Drawing.Size(195, 22);
             this.tsmiActiveCustomFilters.Text = "Active Custom Script";
             this.tsmiActiveCustomFilters.Click += new System.EventHandler(this.tsmiActiveCustomFilters_CheckStateChanged);
             // 
@@ -520,14 +520,14 @@
             this.tsmiMenuConfigure});
             this.settingsToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(61, 22);
-            this.settingsToolStripMenuItem.Text = "Options";
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
+            this.settingsToolStripMenuItem.Text = "选项";
             // 
             // displayQuickBarToolStripMenuItem
             // 
             this.displayQuickBarToolStripMenuItem.CheckOnClick = true;
             this.displayQuickBarToolStripMenuItem.Name = "displayQuickBarToolStripMenuItem";
-            this.displayQuickBarToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.displayQuickBarToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.displayQuickBarToolStripMenuItem.Text = "Hide Quick Bar";
             this.displayQuickBarToolStripMenuItem.Click += new System.EventHandler(this.tsmiDisplayQuickBar_Click);
             // 
@@ -535,20 +535,20 @@
             // 
             this.viewLogToolStripMenuItem.Image = global::OSPE.Properties.Resources.File_info16;
             this.viewLogToolStripMenuItem.Name = "viewLogToolStripMenuItem";
-            this.viewLogToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.viewLogToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.viewLogToolStripMenuItem.Text = "Open Log";
             this.viewLogToolStripMenuItem.Click += new System.EventHandler(this.tsmiViewLog_Click);
             // 
             // toolStripSeparator11
             // 
             this.toolStripSeparator11.Name = "toolStripSeparator11";
-            this.toolStripSeparator11.Size = new System.Drawing.Size(150, 6);
+            this.toolStripSeparator11.Size = new System.Drawing.Size(161, 6);
             // 
             // tsmiMenuConfigure
             // 
             this.tsmiMenuConfigure.Image = global::OSPE.Properties.Resources.Maintenance16;
             this.tsmiMenuConfigure.Name = "tsmiMenuConfigure";
-            this.tsmiMenuConfigure.Size = new System.Drawing.Size(153, 22);
+            this.tsmiMenuConfigure.Size = new System.Drawing.Size(164, 22);
             this.tsmiMenuConfigure.Text = "Configure";
             this.tsmiMenuConfigure.Click += new System.EventHandler(this.tsmiConfigure_Click);
             // 
@@ -559,13 +559,13 @@
             this.helpToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
-            this.helpToolStripMenuItem.Text = "Help";
+            this.helpToolStripMenuItem.Text = "帮助";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Image = global::OSPE.Properties.Resources.Info16;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -582,7 +582,7 @@
             this.tslTotalSentUnit,
             this.tslTesting,
             this.tslTesting2});
-            this.statusStripMain.Location = new System.Drawing.Point(0, 607);
+            this.statusStripMain.Location = new System.Drawing.Point(0, 559);
             this.statusStripMain.Name = "statusStripMain";
             this.statusStripMain.Size = new System.Drawing.Size(799, 22);
             this.statusStripMain.TabIndex = 7;
@@ -591,7 +591,7 @@
             // tslNumPacketsLabel
             // 
             this.tslNumPacketsLabel.Name = "tslNumPacketsLabel";
-            this.tslNumPacketsLabel.Size = new System.Drawing.Size(50, 17);
+            this.tslNumPacketsLabel.Size = new System.Drawing.Size(55, 17);
             this.tslNumPacketsLabel.Text = "Packets:";
             // 
             // tslNumPackets
@@ -599,43 +599,43 @@
             this.tslNumPackets.BackColor = System.Drawing.Color.Transparent;
             this.tslNumPackets.ForeColor = System.Drawing.Color.Black;
             this.tslNumPackets.Name = "tslNumPackets";
-            this.tslNumPackets.Size = new System.Drawing.Size(13, 17);
+            this.tslNumPackets.Size = new System.Drawing.Size(15, 17);
             this.tslNumPackets.Text = "0";
             // 
             // tslTotalReceivedLabel
             // 
             this.tslTotalReceivedLabel.Name = "tslTotalReceivedLabel";
-            this.tslTotalReceivedLabel.Size = new System.Drawing.Size(57, 17);
+            this.tslTotalReceivedLabel.Size = new System.Drawing.Size(63, 17);
             this.tslTotalReceivedLabel.Text = "Received:";
             // 
             // tslTotalReceived
             // 
             this.tslTotalReceived.Name = "tslTotalReceived";
-            this.tslTotalReceived.Size = new System.Drawing.Size(13, 17);
+            this.tslTotalReceived.Size = new System.Drawing.Size(15, 17);
             this.tslTotalReceived.Text = "0";
             // 
             // tslTotalReceivedUnit
             // 
             this.tslTotalReceivedUnit.Name = "tslTotalReceivedUnit";
-            this.tslTotalReceivedUnit.Size = new System.Drawing.Size(14, 17);
+            this.tslTotalReceivedUnit.Size = new System.Drawing.Size(16, 17);
             this.tslTotalReceivedUnit.Text = "B";
             // 
             // tslTotalSentLabel
             // 
             this.tslTotalSentLabel.Name = "tslTotalSentLabel";
-            this.tslTotalSentLabel.Size = new System.Drawing.Size(33, 17);
+            this.tslTotalSentLabel.Size = new System.Drawing.Size(36, 17);
             this.tslTotalSentLabel.Text = "Sent:";
             // 
             // tslTotalSent
             // 
             this.tslTotalSent.Name = "tslTotalSent";
-            this.tslTotalSent.Size = new System.Drawing.Size(13, 17);
+            this.tslTotalSent.Size = new System.Drawing.Size(15, 17);
             this.tslTotalSent.Text = "0";
             // 
             // tslTotalSentUnit
             // 
             this.tslTotalSentUnit.Name = "tslTotalSentUnit";
-            this.tslTotalSentUnit.Size = new System.Drawing.Size(14, 17);
+            this.tslTotalSentUnit.Size = new System.Drawing.Size(16, 17);
             this.tslTotalSentUnit.Text = "B";
             // 
             // tslTesting
@@ -675,64 +675,64 @@
             this.toolStripSeparator6,
             this.trayTsmiExit});
             this.trayMenuStrip.Name = "contextMenuStrip1";
-            this.trayMenuStrip.Size = new System.Drawing.Size(182, 204);
+            this.trayMenuStrip.Size = new System.Drawing.Size(191, 204);
             // 
             // trayTsmiOpen
             // 
             this.trayTsmiOpen.Name = "trayTsmiOpen";
-            this.trayTsmiOpen.Size = new System.Drawing.Size(181, 22);
+            this.trayTsmiOpen.Size = new System.Drawing.Size(190, 22);
             this.trayTsmiOpen.Text = "Open";
             this.trayTsmiOpen.Click += new System.EventHandler(this.trayMenuOpen_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(187, 6);
             // 
             // trayTsmiStartCapture
             // 
             this.trayTsmiStartCapture.Name = "trayTsmiStartCapture";
-            this.trayTsmiStartCapture.Size = new System.Drawing.Size(181, 22);
-            this.trayTsmiStartCapture.Text = "Start Capture";
+            this.trayTsmiStartCapture.Size = new System.Drawing.Size(190, 22);
+            this.trayTsmiStartCapture.Text = "开始捕获";
             this.trayTsmiStartCapture.Click += new System.EventHandler(this.tsmiStartCapture_Click);
             // 
             // trayTsmiStopCapture
             // 
             this.trayTsmiStopCapture.Enabled = false;
             this.trayTsmiStopCapture.Name = "trayTsmiStopCapture";
-            this.trayTsmiStopCapture.Size = new System.Drawing.Size(181, 22);
-            this.trayTsmiStopCapture.Text = "Stop Capture";
+            this.trayTsmiStopCapture.Size = new System.Drawing.Size(190, 22);
+            this.trayTsmiStopCapture.Text = "停止捕获";
             this.trayTsmiStopCapture.Click += new System.EventHandler(this.tsmiStopCapture_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(187, 6);
             // 
             // trayTsmiSelectProcess
             // 
             this.trayTsmiSelectProcess.Name = "trayTsmiSelectProcess";
-            this.trayTsmiSelectProcess.Size = new System.Drawing.Size(181, 22);
+            this.trayTsmiSelectProcess.Size = new System.Drawing.Size(190, 22);
             this.trayTsmiSelectProcess.Text = "Select Process";
             this.trayTsmiSelectProcess.Click += new System.EventHandler(this.tsmiSelectProcess_Click);
             // 
             // trayTsmiInjectLastProc
             // 
             this.trayTsmiInjectLastProc.Name = "trayTsmiInjectLastProc";
-            this.trayTsmiInjectLastProc.Size = new System.Drawing.Size(181, 22);
+            this.trayTsmiInjectLastProc.Size = new System.Drawing.Size(190, 22);
             this.trayTsmiInjectLastProc.Text = "Inject .....";
             this.trayTsmiInjectLastProc.Click += new System.EventHandler(this.tsmiInjectLast_Click);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(187, 6);
             // 
             // trayTsmiActiveFilters
             // 
             this.trayTsmiActiveFilters.CheckOnClick = true;
             this.trayTsmiActiveFilters.Name = "trayTsmiActiveFilters";
-            this.trayTsmiActiveFilters.Size = new System.Drawing.Size(181, 22);
+            this.trayTsmiActiveFilters.Size = new System.Drawing.Size(190, 22);
             this.trayTsmiActiveFilters.Text = "Active Filters";
             this.trayTsmiActiveFilters.Click += new System.EventHandler(this.tsmiActiveFilters_CheckedChanged);
             // 
@@ -740,19 +740,19 @@
             // 
             this.trayTsmiActiveCustomFilter.CheckOnClick = true;
             this.trayTsmiActiveCustomFilter.Name = "trayTsmiActiveCustomFilter";
-            this.trayTsmiActiveCustomFilter.Size = new System.Drawing.Size(181, 22);
+            this.trayTsmiActiveCustomFilter.Size = new System.Drawing.Size(190, 22);
             this.trayTsmiActiveCustomFilter.Text = "Active Custom Filter";
             this.trayTsmiActiveCustomFilter.Click += new System.EventHandler(this.tsmiActiveCustomFilters_CheckStateChanged);
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(187, 6);
             // 
             // trayTsmiExit
             // 
             this.trayTsmiExit.Name = "trayTsmiExit";
-            this.trayTsmiExit.Size = new System.Drawing.Size(181, 22);
+            this.trayTsmiExit.Size = new System.Drawing.Size(190, 22);
             this.trayTsmiExit.Text = "Exit";
             this.trayTsmiExit.Click += new System.EventHandler(this.trayMenuExit_Click);
             // 
@@ -774,19 +774,19 @@
             this.groupBox1.Location = new System.Drawing.Point(0, 24);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(799, 51);
+            this.groupBox1.Size = new System.Drawing.Size(799, 47);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
             // btnSearch
             // 
-            this.btnSearch.Image = global::OSPE.Properties.Resources.Search16;
+            this.btnSearch.Image = global::OSPE.Properties.Resources.Search161;
             this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearch.Location = new System.Drawing.Point(740, 12);
+            this.btnSearch.Location = new System.Drawing.Point(704, 11);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(102, 32);
+            this.btnSearch.Size = new System.Drawing.Size(83, 30);
             this.btnSearch.TabIndex = 10;
-            this.btnSearch.Text = "Search (F3)";
+            this.btnSearch.Text = "查找(F3)";
             this.btnSearch.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
@@ -794,9 +794,9 @@
             // radioSearchHex
             // 
             this.radioSearchHex.AutoSize = true;
-            this.radioSearchHex.Location = new System.Drawing.Point(690, 23);
+            this.radioSearchHex.Location = new System.Drawing.Point(645, 21);
             this.radioSearchHex.Name = "radioSearchHex";
-            this.radioSearchHex.Size = new System.Drawing.Size(44, 17);
+            this.radioSearchHex.Size = new System.Drawing.Size(41, 16);
             this.radioSearchHex.TabIndex = 9;
             this.radioSearchHex.Text = "Hex";
             this.radioSearchHex.UseVisualStyleBackColor = true;
@@ -806,9 +806,9 @@
             // 
             this.radioSearchString.AutoSize = true;
             this.radioSearchString.Checked = true;
-            this.radioSearchString.Location = new System.Drawing.Point(620, 23);
+            this.radioSearchString.Location = new System.Drawing.Point(575, 21);
             this.radioSearchString.Name = "radioSearchString";
-            this.radioSearchString.Size = new System.Drawing.Size(52, 17);
+            this.radioSearchString.Size = new System.Drawing.Size(59, 16);
             this.radioSearchString.TabIndex = 8;
             this.radioSearchString.TabStop = true;
             this.radioSearchString.Text = "String";
@@ -820,32 +820,32 @@
             this.btnStopCapture.Enabled = false;
             this.btnStopCapture.Image = global::OSPE.Properties.Resources.Stop16;
             this.btnStopCapture.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStopCapture.Location = new System.Drawing.Point(234, 12);
+            this.btnStopCapture.Location = new System.Drawing.Point(206, 11);
             this.btnStopCapture.Name = "btnStopCapture";
-            this.btnStopCapture.Size = new System.Drawing.Size(102, 32);
+            this.btnStopCapture.Size = new System.Drawing.Size(80, 30);
             this.btnStopCapture.TabIndex = 7;
-            this.btnStopCapture.Text = "Stop Capture";
+            this.btnStopCapture.Text = "停止捕获";
             this.btnStopCapture.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnStopCapture.UseVisualStyleBackColor = true;
             this.btnStopCapture.Click += new System.EventHandler(this.btnStopCapture_Click);
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(510, 19);
+            this.txtSearch.Location = new System.Drawing.Point(467, 18);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(102, 17);
+            this.txtSearch.Size = new System.Drawing.Size(102, 21);
             this.txtSearch.TabIndex = 6;
-            this.txtSearch.Text = "Search...";
+            this.txtSearch.Text = "查找...";
             this.txtSearch.Enter += new System.EventHandler(this.txtSearch_Enter);
             // 
             // checkBoxViewAsHex
             // 
             this.checkBoxViewAsHex.AutoSize = true;
-            this.checkBoxViewAsHex.Location = new System.Drawing.Point(417, 12);
+            this.checkBoxViewAsHex.Location = new System.Drawing.Point(365, 11);
             this.checkBoxViewAsHex.Name = "checkBoxViewAsHex";
-            this.checkBoxViewAsHex.Size = new System.Drawing.Size(80, 17);
+            this.checkBoxViewAsHex.Size = new System.Drawing.Size(96, 16);
             this.checkBoxViewAsHex.TabIndex = 5;
-            this.checkBoxViewAsHex.Text = "ViewAsHex";
+            this.checkBoxViewAsHex.Text = "十六进制视图";
             this.checkBoxViewAsHex.UseVisualStyleBackColor = true;
             this.checkBoxViewAsHex.CheckedChanged += new System.EventHandler(this.checkBoxViewAsHex_CheckedChanged);
             // 
@@ -854,11 +854,11 @@
             this.btnClearPacketList.Enabled = false;
             this.btnClearPacketList.Image = global::OSPE.Properties.Resources.Delete216;
             this.btnClearPacketList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClearPacketList.Location = new System.Drawing.Point(342, 12);
+            this.btnClearPacketList.Location = new System.Drawing.Point(292, 11);
             this.btnClearPacketList.Name = "btnClearPacketList";
-            this.btnClearPacketList.Size = new System.Drawing.Size(67, 32);
+            this.btnClearPacketList.Size = new System.Drawing.Size(56, 30);
             this.btnClearPacketList.TabIndex = 4;
-            this.btnClearPacketList.Text = "Clear";
+            this.btnClearPacketList.Text = "清除";
             this.btnClearPacketList.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnClearPacketList.UseVisualStyleBackColor = true;
             this.btnClearPacketList.Click += new System.EventHandler(this.buttonClearList_Click);
@@ -866,33 +866,33 @@
             // chkActiveCustomScript
             // 
             this.chkActiveCustomScript.AutoSize = true;
-            this.chkActiveCustomScript.Location = new System.Drawing.Point(5, 28);
+            this.chkActiveCustomScript.Location = new System.Drawing.Point(5, 26);
             this.chkActiveCustomScript.Name = "chkActiveCustomScript";
-            this.chkActiveCustomScript.Size = new System.Drawing.Size(86, 17);
+            this.chkActiveCustomScript.Size = new System.Drawing.Size(72, 16);
             this.chkActiveCustomScript.TabIndex = 3;
-            this.chkActiveCustomScript.Text = "Active Script";
+            this.chkActiveCustomScript.Text = "使用脚本";
             this.chkActiveCustomScript.UseVisualStyleBackColor = true;
             this.chkActiveCustomScript.CheckedChanged += new System.EventHandler(this.chkActiveCustomScript_CheckedChanged);
             // 
             // chkActiveFilters
             // 
             this.chkActiveFilters.AutoSize = true;
-            this.chkActiveFilters.Location = new System.Drawing.Point(5, 12);
+            this.chkActiveFilters.Location = new System.Drawing.Point(5, 11);
             this.chkActiveFilters.Name = "chkActiveFilters";
-            this.chkActiveFilters.Size = new System.Drawing.Size(86, 17);
+            this.chkActiveFilters.Size = new System.Drawing.Size(72, 16);
             this.chkActiveFilters.TabIndex = 2;
-            this.chkActiveFilters.Text = "Active Filters";
+            this.chkActiveFilters.Text = "使用过滤";
             this.chkActiveFilters.UseVisualStyleBackColor = true;
             this.chkActiveFilters.CheckedChanged += new System.EventHandler(this.chkActiveFilters_CheckedChanged);
             // 
             // chkAutoScroll
             // 
             this.chkAutoScroll.AutoSize = true;
-            this.chkAutoScroll.Location = new System.Drawing.Point(417, 30);
+            this.chkAutoScroll.Location = new System.Drawing.Point(365, 28);
             this.chkAutoScroll.Name = "chkAutoScroll";
-            this.chkAutoScroll.Size = new System.Drawing.Size(77, 17);
+            this.chkAutoScroll.Size = new System.Drawing.Size(72, 16);
             this.chkAutoScroll.TabIndex = 1;
-            this.chkAutoScroll.Text = "Auto Scroll";
+            this.chkAutoScroll.Text = "自动滚动";
             this.chkAutoScroll.UseVisualStyleBackColor = true;
             this.chkAutoScroll.CheckedChanged += new System.EventHandler(this.checkAutoScroll_CheckedChanged);
             // 
@@ -900,11 +900,11 @@
             // 
             this.btnStartPauseCapture.Image = global::OSPE.Properties.Resources.Play16;
             this.btnStartPauseCapture.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStartPauseCapture.Location = new System.Drawing.Point(118, 12);
+            this.btnStartPauseCapture.Location = new System.Drawing.Point(118, 11);
             this.btnStartPauseCapture.Name = "btnStartPauseCapture";
-            this.btnStartPauseCapture.Size = new System.Drawing.Size(110, 32);
+            this.btnStartPauseCapture.Size = new System.Drawing.Size(82, 30);
             this.btnStartPauseCapture.TabIndex = 0;
-            this.btnStartPauseCapture.Text = "Start Capture";
+            this.btnStartPauseCapture.Text = "开始捕获";
             this.btnStartPauseCapture.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnStartPauseCapture.UseVisualStyleBackColor = true;
             this.btnStartPauseCapture.Click += new System.EventHandler(this.btnStartPauseCapture_Click);
@@ -913,7 +913,7 @@
             // 
             this.splitContainerFiltersAndBody.BackColor = System.Drawing.SystemColors.Control;
             this.splitContainerFiltersAndBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerFiltersAndBody.Location = new System.Drawing.Point(0, 75);
+            this.splitContainerFiltersAndBody.Location = new System.Drawing.Point(0, 71);
             this.splitContainerFiltersAndBody.Name = "splitContainerFiltersAndBody";
             // 
             // splitContainerFiltersAndBody.Panel1
@@ -925,7 +925,7 @@
             // splitContainerFiltersAndBody.Panel2
             // 
             this.splitContainerFiltersAndBody.Panel2.Controls.Add(this.splitContainerTabsAndHex);
-            this.splitContainerFiltersAndBody.Size = new System.Drawing.Size(799, 532);
+            this.splitContainerFiltersAndBody.Size = new System.Drawing.Size(799, 488);
             this.splitContainerFiltersAndBody.SplitterDistance = 150;
             this.splitContainerFiltersAndBody.SplitterWidth = 6;
             this.splitContainerFiltersAndBody.TabIndex = 8;
@@ -944,8 +944,8 @@
             // splitFilterAndConversions.Panel2
             // 
             this.splitFilterAndConversions.Panel2.Controls.Add(this.groupConversions);
-            this.splitFilterAndConversions.Size = new System.Drawing.Size(150, 532);
-            this.splitFilterAndConversions.SplitterDistance = 360;
+            this.splitFilterAndConversions.Size = new System.Drawing.Size(150, 488);
+            this.splitFilterAndConversions.SplitterDistance = 330;
             this.splitFilterAndConversions.SplitterWidth = 6;
             this.splitFilterAndConversions.TabIndex = 28;
             // 
@@ -958,7 +958,7 @@
             this.tabControlCapturesAndFilters.Location = new System.Drawing.Point(0, 0);
             this.tabControlCapturesAndFilters.Name = "tabControlCapturesAndFilters";
             this.tabControlCapturesAndFilters.SelectedIndex = 0;
-            this.tabControlCapturesAndFilters.Size = new System.Drawing.Size(150, 360);
+            this.tabControlCapturesAndFilters.Size = new System.Drawing.Size(150, 330);
             this.tabControlCapturesAndFilters.TabIndex = 0;
             // 
             // tabCaptures
@@ -967,7 +967,7 @@
             this.tabCaptures.Location = new System.Drawing.Point(4, 22);
             this.tabCaptures.Name = "tabCaptures";
             this.tabCaptures.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCaptures.Size = new System.Drawing.Size(142, 334);
+            this.tabCaptures.Size = new System.Drawing.Size(142, 304);
             this.tabCaptures.TabIndex = 0;
             this.tabCaptures.Text = "Captures";
             this.tabCaptures.UseVisualStyleBackColor = true;
@@ -979,12 +979,13 @@
             this.lvCaptures.ContextMenuStrip = this.cmsCaptures;
             this.lvCaptures.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvCaptures.GridLines = true;
+            this.lvCaptures.HideSelection = false;
             this.lvCaptures.Location = new System.Drawing.Point(3, 3);
             this.lvCaptures.MultiSelect = false;
             this.lvCaptures.Name = "lvCaptures";
             this.lvCaptures.Scrollable = false;
             this.lvCaptures.ShowItemToolTips = true;
-            this.lvCaptures.Size = new System.Drawing.Size(136, 328);
+            this.lvCaptures.Size = new System.Drawing.Size(136, 298);
             this.lvCaptures.TabIndex = 0;
             this.lvCaptures.UseCompatibleStateImageBehavior = false;
             this.lvCaptures.View = System.Windows.Forms.View.Details;
@@ -1003,27 +1004,27 @@
             this.toolStripSeparator13,
             this.listToolStripMenuItem});
             this.cmsCaptures.Name = "cmsCaptures";
-            this.cmsCaptures.Size = new System.Drawing.Size(108, 76);
+            this.cmsCaptures.Size = new System.Drawing.Size(114, 76);
             this.cmsCaptures.Opening += new System.ComponentModel.CancelEventHandler(this.cmsCaptureList_Opening);
             // 
             // tsmiCaptureOpen
             // 
             this.tsmiCaptureOpen.Name = "tsmiCaptureOpen";
-            this.tsmiCaptureOpen.Size = new System.Drawing.Size(107, 22);
+            this.tsmiCaptureOpen.Size = new System.Drawing.Size(113, 22);
             this.tsmiCaptureOpen.Text = "Open";
             this.tsmiCaptureOpen.Click += new System.EventHandler(this.tsmiCaptureListOpen_Click);
             // 
             // tsmiCaptureDelete
             // 
             this.tsmiCaptureDelete.Name = "tsmiCaptureDelete";
-            this.tsmiCaptureDelete.Size = new System.Drawing.Size(107, 22);
+            this.tsmiCaptureDelete.Size = new System.Drawing.Size(113, 22);
             this.tsmiCaptureDelete.Text = "Delete";
             this.tsmiCaptureDelete.Click += new System.EventHandler(this.tsmiCaptureListDelete_Click);
             // 
             // toolStripSeparator13
             // 
             this.toolStripSeparator13.Name = "toolStripSeparator13";
-            this.toolStripSeparator13.Size = new System.Drawing.Size(104, 6);
+            this.toolStripSeparator13.Size = new System.Drawing.Size(110, 6);
             // 
             // listToolStripMenuItem
             // 
@@ -1033,27 +1034,27 @@
             this.tsmiCaptureListClear,
             this.exportToolStripMenuItem});
             this.listToolStripMenuItem.Name = "listToolStripMenuItem";
-            this.listToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.listToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.listToolStripMenuItem.Text = "List";
             // 
             // tsmiCaptureListSave
             // 
             this.tsmiCaptureListSave.Name = "tsmiCaptureListSave";
-            this.tsmiCaptureListSave.Size = new System.Drawing.Size(107, 22);
+            this.tsmiCaptureListSave.Size = new System.Drawing.Size(114, 22);
             this.tsmiCaptureListSave.Text = "Save";
             this.tsmiCaptureListSave.Click += new System.EventHandler(this.tsmiCaptureListSave_Click);
             // 
             // tsmiCaptureListLoad
             // 
             this.tsmiCaptureListLoad.Name = "tsmiCaptureListLoad";
-            this.tsmiCaptureListLoad.Size = new System.Drawing.Size(107, 22);
+            this.tsmiCaptureListLoad.Size = new System.Drawing.Size(114, 22);
             this.tsmiCaptureListLoad.Text = "Load";
             this.tsmiCaptureListLoad.Click += new System.EventHandler(this.tsmiCaptureListLoad_Click);
             // 
             // tsmiCaptureListClear
             // 
             this.tsmiCaptureListClear.Name = "tsmiCaptureListClear";
-            this.tsmiCaptureListClear.Size = new System.Drawing.Size(107, 22);
+            this.tsmiCaptureListClear.Size = new System.Drawing.Size(114, 22);
             this.tsmiCaptureListClear.Text = "Clear";
             this.tsmiCaptureListClear.Click += new System.EventHandler(this.tsmiCaptureListClear_Click);
             // 
@@ -1065,31 +1066,31 @@
             this.tsmiCaptureListExportTXTascii,
             this.tsmiCaptureListExportTXThex});
             this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
-            this.exportToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.exportToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.exportToolStripMenuItem.Text = "Export";
             // 
             // tsmiCaptureListExportHTMLascii
             // 
             this.tsmiCaptureListExportHTMLascii.Name = "tsmiCaptureListExportHTMLascii";
-            this.tsmiCaptureListExportHTMLascii.Size = new System.Drawing.Size(141, 22);
+            this.tsmiCaptureListExportHTMLascii.Size = new System.Drawing.Size(147, 22);
             this.tsmiCaptureListExportHTMLascii.Text = "HTML (ascii)";
             // 
             // tsmiCaptureListExportHTMLhex
             // 
             this.tsmiCaptureListExportHTMLhex.Name = "tsmiCaptureListExportHTMLhex";
-            this.tsmiCaptureListExportHTMLhex.Size = new System.Drawing.Size(141, 22);
+            this.tsmiCaptureListExportHTMLhex.Size = new System.Drawing.Size(147, 22);
             this.tsmiCaptureListExportHTMLhex.Text = "HTML (hex)";
             // 
             // tsmiCaptureListExportTXTascii
             // 
             this.tsmiCaptureListExportTXTascii.Name = "tsmiCaptureListExportTXTascii";
-            this.tsmiCaptureListExportTXTascii.Size = new System.Drawing.Size(141, 22);
+            this.tsmiCaptureListExportTXTascii.Size = new System.Drawing.Size(147, 22);
             this.tsmiCaptureListExportTXTascii.Text = "TXT (ascii)";
             // 
             // tsmiCaptureListExportTXThex
             // 
             this.tsmiCaptureListExportTXThex.Name = "tsmiCaptureListExportTXThex";
-            this.tsmiCaptureListExportTXThex.Size = new System.Drawing.Size(141, 22);
+            this.tsmiCaptureListExportTXThex.Size = new System.Drawing.Size(147, 22);
             this.tsmiCaptureListExportTXThex.Text = "TXT (hex)";
             // 
             // tabFilters
@@ -1098,9 +1099,9 @@
             this.tabFilters.Location = new System.Drawing.Point(4, 22);
             this.tabFilters.Name = "tabFilters";
             this.tabFilters.Padding = new System.Windows.Forms.Padding(3);
-            this.tabFilters.Size = new System.Drawing.Size(142, 334);
+            this.tabFilters.Size = new System.Drawing.Size(142, 304);
             this.tabFilters.TabIndex = 1;
-            this.tabFilters.Text = "Filters";
+            this.tabFilters.Text = "过滤";
             this.tabFilters.UseVisualStyleBackColor = true;
             // 
             // lvFilters
@@ -1112,11 +1113,12 @@
             this.lvFilters.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvFilters.FullRowSelect = true;
             this.lvFilters.GridLines = true;
+            this.lvFilters.HideSelection = false;
             this.lvFilters.Location = new System.Drawing.Point(3, 3);
             this.lvFilters.MinimumSize = new System.Drawing.Size(116, 4);
             this.lvFilters.Name = "lvFilters";
             this.lvFilters.ShowItemToolTips = true;
-            this.lvFilters.Size = new System.Drawing.Size(136, 328);
+            this.lvFilters.Size = new System.Drawing.Size(136, 298);
             this.lvFilters.TabIndex = 30;
             this.lvFilters.UseCompatibleStateImageBehavior = false;
             this.lvFilters.View = System.Windows.Forms.View.Details;
@@ -1136,34 +1138,34 @@
             this.toolStripSeparator10,
             this.tsmiFilterListList});
             this.cmsFilters.Name = "cmsListOnlyOptions";
-            this.cmsFilters.Size = new System.Drawing.Size(153, 98);
+            this.cmsFilters.Size = new System.Drawing.Size(163, 98);
             this.cmsFilters.Opening += new System.ComponentModel.CancelEventHandler(this.cmsFilterList_Opening);
             // 
             // tsmiFilterListAddNew
             // 
             this.tsmiFilterListAddNew.Name = "tsmiFilterListAddNew";
-            this.tsmiFilterListAddNew.Size = new System.Drawing.Size(152, 22);
+            this.tsmiFilterListAddNew.Size = new System.Drawing.Size(162, 22);
             this.tsmiFilterListAddNew.Text = "Add New Filter";
             this.tsmiFilterListAddNew.Click += new System.EventHandler(this.tsmiFilterListAddNew_Click);
             // 
             // tsmiFilterListEdit
             // 
             this.tsmiFilterListEdit.Name = "tsmiFilterListEdit";
-            this.tsmiFilterListEdit.Size = new System.Drawing.Size(152, 22);
+            this.tsmiFilterListEdit.Size = new System.Drawing.Size(162, 22);
             this.tsmiFilterListEdit.Text = "Edit Filter";
             this.tsmiFilterListEdit.Click += new System.EventHandler(this.tsmiFilterListEdit_Click);
             // 
             // tsmiFilterListDelete
             // 
             this.tsmiFilterListDelete.Name = "tsmiFilterListDelete";
-            this.tsmiFilterListDelete.Size = new System.Drawing.Size(152, 22);
+            this.tsmiFilterListDelete.Size = new System.Drawing.Size(162, 22);
             this.tsmiFilterListDelete.Text = "Delete Filter";
             this.tsmiFilterListDelete.Click += new System.EventHandler(this.tsmiFilterListDelete_Click);
             // 
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator10.Size = new System.Drawing.Size(159, 6);
             // 
             // tsmiFilterListList
             // 
@@ -1173,34 +1175,34 @@
             this.tsmiFilterListListSaveAs,
             this.tsmiFilterListListClear});
             this.tsmiFilterListList.Name = "tsmiFilterListList";
-            this.tsmiFilterListList.Size = new System.Drawing.Size(152, 22);
+            this.tsmiFilterListList.Size = new System.Drawing.Size(162, 22);
             this.tsmiFilterListList.Text = "List";
             // 
             // tsmiFilterListListOpen
             // 
             this.tsmiFilterListListOpen.Name = "tsmiFilterListListOpen";
-            this.tsmiFilterListListOpen.Size = new System.Drawing.Size(111, 22);
+            this.tsmiFilterListListOpen.Size = new System.Drawing.Size(117, 22);
             this.tsmiFilterListListOpen.Text = "Open";
             this.tsmiFilterListListOpen.Click += new System.EventHandler(this.tsmiFilterListLoad_Click);
             // 
             // tsmiFilterListListSave
             // 
             this.tsmiFilterListListSave.Name = "tsmiFilterListListSave";
-            this.tsmiFilterListListSave.Size = new System.Drawing.Size(111, 22);
+            this.tsmiFilterListListSave.Size = new System.Drawing.Size(117, 22);
             this.tsmiFilterListListSave.Text = "Save";
             this.tsmiFilterListListSave.Click += new System.EventHandler(this.tsmiFilterListSave_Click);
             // 
             // tsmiFilterListListSaveAs
             // 
             this.tsmiFilterListListSaveAs.Name = "tsmiFilterListListSaveAs";
-            this.tsmiFilterListListSaveAs.Size = new System.Drawing.Size(111, 22);
+            this.tsmiFilterListListSaveAs.Size = new System.Drawing.Size(117, 22);
             this.tsmiFilterListListSaveAs.Text = "SaveAs";
             this.tsmiFilterListListSaveAs.Click += new System.EventHandler(this.tsmiFilterListSaveAs_Click);
             // 
             // tsmiFilterListListClear
             // 
             this.tsmiFilterListListClear.Name = "tsmiFilterListListClear";
-            this.tsmiFilterListListClear.Size = new System.Drawing.Size(111, 22);
+            this.tsmiFilterListListClear.Size = new System.Drawing.Size(117, 22);
             this.tsmiFilterListListClear.Text = "Clear";
             this.tsmiFilterListListClear.Click += new System.EventHandler(this.tsmiFilterListClear_Click);
             // 
@@ -1210,7 +1212,7 @@
             this.tabSendList.Location = new System.Drawing.Point(4, 22);
             this.tabSendList.Name = "tabSendList";
             this.tabSendList.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSendList.Size = new System.Drawing.Size(142, 334);
+            this.tabSendList.Size = new System.Drawing.Size(142, 304);
             this.tabSendList.TabIndex = 2;
             this.tabSendList.Text = "Send";
             this.tabSendList.UseVisualStyleBackColor = true;
@@ -1223,12 +1225,13 @@
             this.lvSendList.ContextMenuStrip = this.cmsSendList;
             this.lvSendList.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvSendList.GridLines = true;
+            this.lvSendList.HideSelection = false;
             this.lvSendList.Location = new System.Drawing.Point(3, 3);
             this.lvSendList.MultiSelect = false;
             this.lvSendList.Name = "lvSendList";
             this.lvSendList.Scrollable = false;
             this.lvSendList.ShowItemToolTips = true;
-            this.lvSendList.Size = new System.Drawing.Size(136, 328);
+            this.lvSendList.Size = new System.Drawing.Size(136, 298);
             this.lvSendList.TabIndex = 1;
             this.lvSendList.UseCompatibleStateImageBehavior = false;
             this.lvSendList.View = System.Windows.Forms.View.Details;
@@ -1247,33 +1250,33 @@
             this.toolStripSeparator8,
             this.tsmiSendListListOptions});
             this.cmsSendList.Name = "cmsSendList";
-            this.cmsSendList.Size = new System.Drawing.Size(152, 98);
+            this.cmsSendList.Size = new System.Drawing.Size(162, 98);
             this.cmsSendList.Opening += new System.ComponentModel.CancelEventHandler(this.cmsSendList_Opening);
             // 
             // tsmiSendListIEdit
             // 
             this.tsmiSendListIEdit.Name = "tsmiSendListIEdit";
-            this.tsmiSendListIEdit.Size = new System.Drawing.Size(151, 22);
+            this.tsmiSendListIEdit.Size = new System.Drawing.Size(161, 22);
             this.tsmiSendListIEdit.Text = "Edit";
             this.tsmiSendListIEdit.Click += new System.EventHandler(this.tsmiSendListEdit_Click);
             // 
             // tsmiSendListDelete
             // 
             this.tsmiSendListDelete.Name = "tsmiSendListDelete";
-            this.tsmiSendListDelete.Size = new System.Drawing.Size(151, 22);
+            this.tsmiSendListDelete.Size = new System.Drawing.Size(161, 22);
             this.tsmiSendListDelete.Text = "Delete";
             this.tsmiSendListDelete.Click += new System.EventHandler(this.tsmiSendListDelete_Click);
             // 
             // tsmiSendListSelection
             // 
             this.tsmiSendListSelection.Name = "tsmiSendListSelection";
-            this.tsmiSendListSelection.Size = new System.Drawing.Size(151, 22);
+            this.tsmiSendListSelection.Size = new System.Drawing.Size(161, 22);
             this.tsmiSendListSelection.Text = "Send Selection";
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(148, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(158, 6);
             // 
             // tsmiSendListListOptions
             // 
@@ -1282,27 +1285,27 @@
             this.tsmiSendListListSave,
             this.tsmiSendListListClear});
             this.tsmiSendListListOptions.Name = "tsmiSendListListOptions";
-            this.tsmiSendListListOptions.Size = new System.Drawing.Size(151, 22);
+            this.tsmiSendListListOptions.Size = new System.Drawing.Size(161, 22);
             this.tsmiSendListListOptions.Text = "List";
             // 
             // tsmiSendListListLoad
             // 
             this.tsmiSendListListLoad.Name = "tsmiSendListListLoad";
-            this.tsmiSendListListLoad.Size = new System.Drawing.Size(101, 22);
+            this.tsmiSendListListLoad.Size = new System.Drawing.Size(106, 22);
             this.tsmiSendListListLoad.Text = "Load";
             this.tsmiSendListListLoad.Click += new System.EventHandler(this.tsmiSendListLoad_Click);
             // 
             // tsmiSendListListSave
             // 
             this.tsmiSendListListSave.Name = "tsmiSendListListSave";
-            this.tsmiSendListListSave.Size = new System.Drawing.Size(101, 22);
+            this.tsmiSendListListSave.Size = new System.Drawing.Size(106, 22);
             this.tsmiSendListListSave.Text = "Save";
             this.tsmiSendListListSave.Click += new System.EventHandler(this.tsmiSendListSave_Click);
             // 
             // tsmiSendListListClear
             // 
             this.tsmiSendListListClear.Name = "tsmiSendListListClear";
-            this.tsmiSendListListClear.Size = new System.Drawing.Size(101, 22);
+            this.tsmiSendListListClear.Size = new System.Drawing.Size(106, 22);
             this.tsmiSendListListClear.Text = "Clear";
             this.tsmiSendListListClear.Click += new System.EventHandler(this.tsmiSendListClear_Click);
             // 
@@ -1312,9 +1315,9 @@
             this.groupConversions.Controls.Add(this.panel1);
             this.groupConversions.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupConversions.Location = new System.Drawing.Point(0, 0);
-            this.groupConversions.Margin = new System.Windows.Forms.Padding(3, 19, 3, 3);
+            this.groupConversions.Margin = new System.Windows.Forms.Padding(3, 18, 3, 3);
             this.groupConversions.Name = "groupConversions";
-            this.groupConversions.Size = new System.Drawing.Size(150, 166);
+            this.groupConversions.Size = new System.Drawing.Size(150, 152);
             this.groupConversions.TabIndex = 30;
             this.groupConversions.TabStop = false;
             this.groupConversions.Text = "Conversions:";
@@ -1333,19 +1336,19 @@
             this.panel2.Controls.Add(this.txtConverChar);
             this.panel2.Controls.Add(this.txtConverPos);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(51, 16);
+            this.panel2.Location = new System.Drawing.Point(51, 17);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(96, 147);
+            this.panel2.Size = new System.Drawing.Size(96, 132);
             this.panel2.TabIndex = 21;
             // 
             // txtConverDouble
             // 
             this.txtConverDouble.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConverDouble.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtConverDouble.Location = new System.Drawing.Point(0, 130);
+            this.txtConverDouble.Location = new System.Drawing.Point(0, 140);
             this.txtConverDouble.Name = "txtConverDouble";
             this.txtConverDouble.ReadOnly = true;
-            this.txtConverDouble.Size = new System.Drawing.Size(96, 13);
+            this.txtConverDouble.Size = new System.Drawing.Size(96, 14);
             this.txtConverDouble.TabIndex = 29;
             this.txtConverDouble.TabStop = false;
             // 
@@ -1353,10 +1356,10 @@
             // 
             this.txtConverFloat.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConverFloat.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtConverFloat.Location = new System.Drawing.Point(0, 117);
+            this.txtConverFloat.Location = new System.Drawing.Point(0, 126);
             this.txtConverFloat.Name = "txtConverFloat";
             this.txtConverFloat.ReadOnly = true;
-            this.txtConverFloat.Size = new System.Drawing.Size(96, 13);
+            this.txtConverFloat.Size = new System.Drawing.Size(96, 14);
             this.txtConverFloat.TabIndex = 28;
             this.txtConverFloat.TabStop = false;
             // 
@@ -1364,10 +1367,10 @@
             // 
             this.txtConverUInt64.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConverUInt64.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtConverUInt64.Location = new System.Drawing.Point(0, 104);
+            this.txtConverUInt64.Location = new System.Drawing.Point(0, 112);
             this.txtConverUInt64.Name = "txtConverUInt64";
             this.txtConverUInt64.ReadOnly = true;
-            this.txtConverUInt64.Size = new System.Drawing.Size(96, 13);
+            this.txtConverUInt64.Size = new System.Drawing.Size(96, 14);
             this.txtConverUInt64.TabIndex = 27;
             this.txtConverUInt64.TabStop = false;
             // 
@@ -1375,10 +1378,10 @@
             // 
             this.txtConverInt64.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConverInt64.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtConverInt64.Location = new System.Drawing.Point(0, 91);
+            this.txtConverInt64.Location = new System.Drawing.Point(0, 98);
             this.txtConverInt64.Name = "txtConverInt64";
             this.txtConverInt64.ReadOnly = true;
-            this.txtConverInt64.Size = new System.Drawing.Size(96, 13);
+            this.txtConverInt64.Size = new System.Drawing.Size(96, 14);
             this.txtConverInt64.TabIndex = 26;
             this.txtConverInt64.TabStop = false;
             // 
@@ -1386,10 +1389,10 @@
             // 
             this.txtConverUInt32.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConverUInt32.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtConverUInt32.Location = new System.Drawing.Point(0, 78);
+            this.txtConverUInt32.Location = new System.Drawing.Point(0, 84);
             this.txtConverUInt32.Name = "txtConverUInt32";
             this.txtConverUInt32.ReadOnly = true;
-            this.txtConverUInt32.Size = new System.Drawing.Size(96, 13);
+            this.txtConverUInt32.Size = new System.Drawing.Size(96, 14);
             this.txtConverUInt32.TabIndex = 25;
             this.txtConverUInt32.TabStop = false;
             // 
@@ -1397,10 +1400,10 @@
             // 
             this.txtConverInt32.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConverInt32.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtConverInt32.Location = new System.Drawing.Point(0, 65);
+            this.txtConverInt32.Location = new System.Drawing.Point(0, 70);
             this.txtConverInt32.Name = "txtConverInt32";
             this.txtConverInt32.ReadOnly = true;
-            this.txtConverInt32.Size = new System.Drawing.Size(96, 13);
+            this.txtConverInt32.Size = new System.Drawing.Size(96, 14);
             this.txtConverInt32.TabIndex = 24;
             this.txtConverInt32.TabStop = false;
             // 
@@ -1408,10 +1411,10 @@
             // 
             this.txtConverUShort.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConverUShort.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtConverUShort.Location = new System.Drawing.Point(0, 52);
+            this.txtConverUShort.Location = new System.Drawing.Point(0, 56);
             this.txtConverUShort.Name = "txtConverUShort";
             this.txtConverUShort.ReadOnly = true;
-            this.txtConverUShort.Size = new System.Drawing.Size(96, 13);
+            this.txtConverUShort.Size = new System.Drawing.Size(96, 14);
             this.txtConverUShort.TabIndex = 23;
             this.txtConverUShort.TabStop = false;
             // 
@@ -1419,10 +1422,10 @@
             // 
             this.txtConverShort.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConverShort.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtConverShort.Location = new System.Drawing.Point(0, 39);
+            this.txtConverShort.Location = new System.Drawing.Point(0, 42);
             this.txtConverShort.Name = "txtConverShort";
             this.txtConverShort.ReadOnly = true;
-            this.txtConverShort.Size = new System.Drawing.Size(96, 13);
+            this.txtConverShort.Size = new System.Drawing.Size(96, 14);
             this.txtConverShort.TabIndex = 22;
             this.txtConverShort.TabStop = false;
             // 
@@ -1430,10 +1433,10 @@
             // 
             this.txtConverByte.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConverByte.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtConverByte.Location = new System.Drawing.Point(0, 26);
+            this.txtConverByte.Location = new System.Drawing.Point(0, 28);
             this.txtConverByte.Name = "txtConverByte";
             this.txtConverByte.ReadOnly = true;
-            this.txtConverByte.Size = new System.Drawing.Size(96, 13);
+            this.txtConverByte.Size = new System.Drawing.Size(96, 14);
             this.txtConverByte.TabIndex = 21;
             this.txtConverByte.TabStop = false;
             // 
@@ -1441,10 +1444,10 @@
             // 
             this.txtConverChar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConverChar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtConverChar.Location = new System.Drawing.Point(0, 13);
+            this.txtConverChar.Location = new System.Drawing.Point(0, 14);
             this.txtConverChar.Name = "txtConverChar";
             this.txtConverChar.ReadOnly = true;
-            this.txtConverChar.Size = new System.Drawing.Size(96, 13);
+            this.txtConverChar.Size = new System.Drawing.Size(96, 14);
             this.txtConverChar.TabIndex = 20;
             this.txtConverChar.TabStop = false;
             // 
@@ -1455,7 +1458,7 @@
             this.txtConverPos.Location = new System.Drawing.Point(0, 0);
             this.txtConverPos.Name = "txtConverPos";
             this.txtConverPos.ReadOnly = true;
-            this.txtConverPos.Size = new System.Drawing.Size(96, 13);
+            this.txtConverPos.Size = new System.Drawing.Size(96, 14);
             this.txtConverPos.TabIndex = 30;
             this.txtConverPos.TabStop = false;
             // 
@@ -1473,18 +1476,18 @@
             this.panel1.Controls.Add(this.lblConverChar);
             this.panel1.Controls.Add(this.lblConverPos);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(3, 16);
+            this.panel1.Location = new System.Drawing.Point(3, 17);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(48, 147);
+            this.panel1.Size = new System.Drawing.Size(48, 132);
             this.panel1.TabIndex = 20;
             // 
             // lblConverDouble
             // 
             this.lblConverDouble.AutoSize = true;
             this.lblConverDouble.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblConverDouble.Location = new System.Drawing.Point(0, 130);
+            this.lblConverDouble.Location = new System.Drawing.Point(0, 120);
             this.lblConverDouble.Name = "lblConverDouble";
-            this.lblConverDouble.Size = new System.Drawing.Size(44, 13);
+            this.lblConverDouble.Size = new System.Drawing.Size(47, 12);
             this.lblConverDouble.TabIndex = 19;
             this.lblConverDouble.Text = "Double:";
             // 
@@ -1492,9 +1495,9 @@
             // 
             this.lblConverFloat.AutoSize = true;
             this.lblConverFloat.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblConverFloat.Location = new System.Drawing.Point(0, 117);
+            this.lblConverFloat.Location = new System.Drawing.Point(0, 108);
             this.lblConverFloat.Name = "lblConverFloat";
-            this.lblConverFloat.Size = new System.Drawing.Size(33, 13);
+            this.lblConverFloat.Size = new System.Drawing.Size(41, 12);
             this.lblConverFloat.TabIndex = 18;
             this.lblConverFloat.Text = "Float:";
             // 
@@ -1502,9 +1505,9 @@
             // 
             this.lblConverUInt64.AutoSize = true;
             this.lblConverUInt64.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblConverUInt64.Location = new System.Drawing.Point(0, 104);
+            this.lblConverUInt64.Location = new System.Drawing.Point(0, 96);
             this.lblConverUInt64.Name = "lblConverUInt64";
-            this.lblConverUInt64.Size = new System.Drawing.Size(42, 13);
+            this.lblConverUInt64.Size = new System.Drawing.Size(47, 12);
             this.lblConverUInt64.TabIndex = 17;
             this.lblConverUInt64.Text = "UInt64:";
             // 
@@ -1512,9 +1515,9 @@
             // 
             this.lblConverInt64.AutoSize = true;
             this.lblConverInt64.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblConverInt64.Location = new System.Drawing.Point(0, 91);
+            this.lblConverInt64.Location = new System.Drawing.Point(0, 84);
             this.lblConverInt64.Name = "lblConverInt64";
-            this.lblConverInt64.Size = new System.Drawing.Size(34, 13);
+            this.lblConverInt64.Size = new System.Drawing.Size(41, 12);
             this.lblConverInt64.TabIndex = 16;
             this.lblConverInt64.Text = "Int64:";
             // 
@@ -1522,9 +1525,9 @@
             // 
             this.lblConverULong.AutoSize = true;
             this.lblConverULong.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblConverULong.Location = new System.Drawing.Point(0, 78);
+            this.lblConverULong.Location = new System.Drawing.Point(0, 72);
             this.lblConverULong.Name = "lblConverULong";
-            this.lblConverULong.Size = new System.Drawing.Size(42, 13);
+            this.lblConverULong.Size = new System.Drawing.Size(47, 12);
             this.lblConverULong.TabIndex = 15;
             this.lblConverULong.Text = "UInt32:";
             // 
@@ -1532,9 +1535,9 @@
             // 
             this.lblConverLong.AutoSize = true;
             this.lblConverLong.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblConverLong.Location = new System.Drawing.Point(0, 65);
+            this.lblConverLong.Location = new System.Drawing.Point(0, 60);
             this.lblConverLong.Name = "lblConverLong";
-            this.lblConverLong.Size = new System.Drawing.Size(34, 13);
+            this.lblConverLong.Size = new System.Drawing.Size(41, 12);
             this.lblConverLong.TabIndex = 14;
             this.lblConverLong.Text = "Int32:";
             // 
@@ -1542,9 +1545,9 @@
             // 
             this.lblConverUShort.AutoSize = true;
             this.lblConverUShort.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblConverUShort.Location = new System.Drawing.Point(0, 52);
+            this.lblConverUShort.Location = new System.Drawing.Point(0, 48);
             this.lblConverUShort.Name = "lblConverUShort";
-            this.lblConverUShort.Size = new System.Drawing.Size(43, 13);
+            this.lblConverUShort.Size = new System.Drawing.Size(47, 12);
             this.lblConverUShort.TabIndex = 13;
             this.lblConverUShort.Text = "UShort:";
             // 
@@ -1552,9 +1555,9 @@
             // 
             this.lblConverShort.AutoSize = true;
             this.lblConverShort.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblConverShort.Location = new System.Drawing.Point(0, 39);
+            this.lblConverShort.Location = new System.Drawing.Point(0, 36);
             this.lblConverShort.Name = "lblConverShort";
-            this.lblConverShort.Size = new System.Drawing.Size(35, 13);
+            this.lblConverShort.Size = new System.Drawing.Size(41, 12);
             this.lblConverShort.TabIndex = 12;
             this.lblConverShort.Text = "Short:";
             // 
@@ -1562,9 +1565,9 @@
             // 
             this.lblConverByte.AutoSize = true;
             this.lblConverByte.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblConverByte.Location = new System.Drawing.Point(0, 26);
+            this.lblConverByte.Location = new System.Drawing.Point(0, 24);
             this.lblConverByte.Name = "lblConverByte";
-            this.lblConverByte.Size = new System.Drawing.Size(31, 13);
+            this.lblConverByte.Size = new System.Drawing.Size(35, 12);
             this.lblConverByte.TabIndex = 11;
             this.lblConverByte.Text = "Byte:";
             // 
@@ -1572,9 +1575,9 @@
             // 
             this.lblConverChar.AutoSize = true;
             this.lblConverChar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblConverChar.Location = new System.Drawing.Point(0, 13);
+            this.lblConverChar.Location = new System.Drawing.Point(0, 12);
             this.lblConverChar.Name = "lblConverChar";
-            this.lblConverChar.Size = new System.Drawing.Size(32, 13);
+            this.lblConverChar.Size = new System.Drawing.Size(35, 12);
             this.lblConverChar.TabIndex = 10;
             this.lblConverChar.Text = "Char:";
             // 
@@ -1584,7 +1587,7 @@
             this.lblConverPos.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblConverPos.Location = new System.Drawing.Point(0, 0);
             this.lblConverPos.Name = "lblConverPos";
-            this.lblConverPos.Size = new System.Drawing.Size(47, 13);
+            this.lblConverPos.Size = new System.Drawing.Size(59, 12);
             this.lblConverPos.TabIndex = 20;
             this.lblConverPos.Text = "Position:";
             // 
@@ -1605,8 +1608,8 @@
             // 
             this.splitContainerTabsAndHex.Panel2.Controls.Add(this.hexBox);
             this.splitContainerTabsAndHex.Panel2MinSize = 0;
-            this.splitContainerTabsAndHex.Size = new System.Drawing.Size(643, 532);
-            this.splitContainerTabsAndHex.SplitterDistance = 360;
+            this.splitContainerTabsAndHex.Size = new System.Drawing.Size(643, 488);
+            this.splitContainerTabsAndHex.SplitterDistance = 330;
             this.splitContainerTabsAndHex.SplitterWidth = 6;
             this.splitContainerTabsAndHex.TabIndex = 9;
             // 
@@ -1621,7 +1624,7 @@
             this.tabControlMain.Margin = new System.Windows.Forms.Padding(0);
             this.tabControlMain.Name = "tabControlMain";
             this.tabControlMain.SelectedIndex = 0;
-            this.tabControlMain.Size = new System.Drawing.Size(643, 360);
+            this.tabControlMain.Size = new System.Drawing.Size(643, 330);
             this.tabControlMain.TabIndex = 0;
             // 
             // tabBoth
@@ -1630,7 +1633,7 @@
             this.tabBoth.Location = new System.Drawing.Point(4, 22);
             this.tabBoth.Margin = new System.Windows.Forms.Padding(0);
             this.tabBoth.Name = "tabBoth";
-            this.tabBoth.Size = new System.Drawing.Size(635, 334);
+            this.tabBoth.Size = new System.Drawing.Size(635, 304);
             this.tabBoth.TabIndex = 2;
             this.tabBoth.Text = "Both";
             this.tabBoth.UseVisualStyleBackColor = true;
@@ -1646,11 +1649,12 @@
             this.colBothData});
             this.lvwBoth.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvwBoth.FullRowSelect = true;
+            this.lvwBoth.HideSelection = false;
             this.lvwBoth.Location = new System.Drawing.Point(0, 0);
             this.lvwBoth.MultiSelect = false;
             this.lvwBoth.Name = "lvwBoth";
             this.lvwBoth.ShowItemToolTips = true;
-            this.lvwBoth.Size = new System.Drawing.Size(635, 334);
+            this.lvwBoth.Size = new System.Drawing.Size(635, 304);
             this.lvwBoth.TabIndex = 1;
             this.lvwBoth.UseCompatibleStateImageBehavior = false;
             this.lvwBoth.View = System.Windows.Forms.View.Details;
@@ -1687,7 +1691,7 @@
             this.tabReceived.Controls.Add(this.lvwReceived);
             this.tabReceived.Location = new System.Drawing.Point(4, 22);
             this.tabReceived.Name = "tabReceived";
-            this.tabReceived.Size = new System.Drawing.Size(635, 334);
+            this.tabReceived.Size = new System.Drawing.Size(635, 304);
             this.tabReceived.TabIndex = 0;
             this.tabReceived.Text = "Received";
             this.tabReceived.UseVisualStyleBackColor = true;
@@ -1703,11 +1707,12 @@
             this.colReceivedData});
             this.lvwReceived.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvwReceived.FullRowSelect = true;
+            this.lvwReceived.HideSelection = false;
             this.lvwReceived.Location = new System.Drawing.Point(0, 0);
             this.lvwReceived.MultiSelect = false;
             this.lvwReceived.Name = "lvwReceived";
             this.lvwReceived.ShowItemToolTips = true;
-            this.lvwReceived.Size = new System.Drawing.Size(635, 334);
+            this.lvwReceived.Size = new System.Drawing.Size(635, 304);
             this.lvwReceived.TabIndex = 0;
             this.lvwReceived.UseCompatibleStateImageBehavior = false;
             this.lvwReceived.View = System.Windows.Forms.View.Details;
@@ -1745,7 +1750,7 @@
             this.tabSent.Location = new System.Drawing.Point(4, 22);
             this.tabSent.Margin = new System.Windows.Forms.Padding(0);
             this.tabSent.Name = "tabSent";
-            this.tabSent.Size = new System.Drawing.Size(635, 334);
+            this.tabSent.Size = new System.Drawing.Size(635, 304);
             this.tabSent.TabIndex = 1;
             this.tabSent.Text = "Sent";
             this.tabSent.UseVisualStyleBackColor = true;
@@ -1761,11 +1766,12 @@
             this.colSentData});
             this.lvwSent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvwSent.FullRowSelect = true;
+            this.lvwSent.HideSelection = false;
             this.lvwSent.Location = new System.Drawing.Point(0, 0);
             this.lvwSent.MultiSelect = false;
             this.lvwSent.Name = "lvwSent";
             this.lvwSent.ShowItemToolTips = true;
-            this.lvwSent.Size = new System.Drawing.Size(635, 334);
+            this.lvwSent.Size = new System.Drawing.Size(635, 304);
             this.lvwSent.TabIndex = 1;
             this.lvwSent.UseCompatibleStateImageBehavior = false;
             this.lvwSent.View = System.Windows.Forms.View.Details;
@@ -1803,7 +1809,7 @@
             this.tabWatch.Location = new System.Drawing.Point(4, 22);
             this.tabWatch.Margin = new System.Windows.Forms.Padding(0);
             this.tabWatch.Name = "tabWatch";
-            this.tabWatch.Size = new System.Drawing.Size(635, 334);
+            this.tabWatch.Size = new System.Drawing.Size(635, 304);
             this.tabWatch.TabIndex = 5;
             this.tabWatch.Text = "Watch";
             this.tabWatch.UseVisualStyleBackColor = true;
@@ -1819,12 +1825,13 @@
             this.colWatchData});
             this.lvwWatch.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvwWatch.FullRowSelect = true;
+            this.lvwWatch.HideSelection = false;
             this.lvwWatch.Location = new System.Drawing.Point(0, 0);
             this.lvwWatch.Margin = new System.Windows.Forms.Padding(0);
             this.lvwWatch.MultiSelect = false;
             this.lvwWatch.Name = "lvwWatch";
             this.lvwWatch.ShowItemToolTips = true;
-            this.lvwWatch.Size = new System.Drawing.Size(635, 334);
+            this.lvwWatch.Size = new System.Drawing.Size(635, 304);
             this.lvwWatch.TabIndex = 3;
             this.lvwWatch.UseCompatibleStateImageBehavior = false;
             this.lvwWatch.View = System.Windows.Forms.View.Details;
@@ -1866,7 +1873,7 @@
             this.hexBox.Location = new System.Drawing.Point(0, 0);
             this.hexBox.Name = "hexBox";
             this.hexBox.ShadowSelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(60)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
-            this.hexBox.Size = new System.Drawing.Size(643, 166);
+            this.hexBox.Size = new System.Drawing.Size(643, 152);
             this.hexBox.StringViewVisible = true;
             this.hexBox.TabIndex = 0;
             this.hexBox.UseFixedBytesPerLine = true;
@@ -1882,48 +1889,48 @@
             this.tsmiAddToSendList,
             this.tsmiGenerateFilter});
             this.cmsPacketOptions.Name = "cmsPacketOptions";
-            this.cmsPacketOptions.Size = new System.Drawing.Size(157, 92);
+            this.cmsPacketOptions.Size = new System.Drawing.Size(169, 92);
             // 
             // tsmiOpenPacket
             // 
             this.tsmiOpenPacket.Name = "tsmiOpenPacket";
-            this.tsmiOpenPacket.Size = new System.Drawing.Size(156, 22);
+            this.tsmiOpenPacket.Size = new System.Drawing.Size(168, 22);
             this.tsmiOpenPacket.Text = "Open";
             this.tsmiOpenPacket.Click += new System.EventHandler(this.tsmiOpenPacket_Click);
             // 
             // tsmiSendPacket
             // 
             this.tsmiSendPacket.Name = "tsmiSendPacket";
-            this.tsmiSendPacket.Size = new System.Drawing.Size(156, 22);
+            this.tsmiSendPacket.Size = new System.Drawing.Size(168, 22);
             this.tsmiSendPacket.Text = "Send";
             this.tsmiSendPacket.Click += new System.EventHandler(this.tsmiSendPacket_Click);
             // 
             // tsmiAddToSendList
             // 
             this.tsmiAddToSendList.Name = "tsmiAddToSendList";
-            this.tsmiAddToSendList.Size = new System.Drawing.Size(156, 22);
+            this.tsmiAddToSendList.Size = new System.Drawing.Size(168, 22);
             this.tsmiAddToSendList.Text = "Add to send list";
             this.tsmiAddToSendList.Click += new System.EventHandler(this.tsmiAddToSendList_Click);
             // 
             // tsmiGenerateFilter
             // 
             this.tsmiGenerateFilter.Name = "tsmiGenerateFilter";
-            this.tsmiGenerateFilter.Size = new System.Drawing.Size(156, 22);
+            this.tsmiGenerateFilter.Size = new System.Drawing.Size(168, 22);
             this.tsmiGenerateFilter.Text = "Generate filter";
             this.tsmiGenerateFilter.Click += new System.EventHandler(this.tsmiGenerateFilter_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(799, 629);
+            this.ClientSize = new System.Drawing.Size(799, 581);
             this.Controls.Add(this.splitContainerFiltersAndBody);
             this.Controls.Add(this.statusStripMain);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStripMain);
-            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStripMain;
-            this.MinimumSize = new System.Drawing.Size(495, 500);
+            this.MinimumSize = new System.Drawing.Size(495, 465);
             this.Name = "MainForm";
             this.Text = "QWPE - Supports X86 and X64";
             this.Load += new System.EventHandler(this.MainForm_Load);

@@ -113,10 +113,12 @@
             this.dataGridViewSearch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewSearch.Location = new System.Drawing.Point(12, 11);
             this.dataGridViewSearch.Name = "dataGridViewSearch";
-            this.dataGridViewSearch.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dataGridViewSearch.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dataGridViewSearch.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.dataGridViewSearch.Size = new System.Drawing.Size(632, 85);
+            this.dataGridViewSearch.Size = new System.Drawing.Size(745, 95);
             this.dataGridViewSearch.TabIndex = 0;
+
+            //this.dataGridViewSearch.Columns.Width = 150;
             this.dataGridViewSearch.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dataGridView_CellPainting);
             this.dataGridViewSearch.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView_EditingControlShowing);
             this.dataGridViewSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView_KeyDown);
@@ -130,7 +132,7 @@
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Location = new System.Drawing.Point(12, 199);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(328, 141);
+            this.groupBox1.Size = new System.Drawing.Size(428, 141);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Search-modify method";
@@ -294,7 +296,7 @@
             this.groupBox2.Controls.Add(this.chkWatch);
             this.groupBox2.Controls.Add(this.chkIgnore);
             this.groupBox2.Controls.Add(this.chkBlock);
-            this.groupBox2.Location = new System.Drawing.Point(361, 187);
+            this.groupBox2.Location = new System.Drawing.Point(461, 187);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(90, 113);
             this.groupBox2.TabIndex = 3;
@@ -368,7 +370,7 @@
             // chkActive
             // 
             this.chkActive.AutoSize = true;
-            this.chkActive.Location = new System.Drawing.Point(361, 164);
+            this.chkActive.Location = new System.Drawing.Point(461, 164);
             this.chkActive.Name = "chkActive";
             this.chkActive.Size = new System.Drawing.Size(56, 17);
             this.chkActive.TabIndex = 5;
@@ -377,7 +379,7 @@
             // 
             // btnApply
             // 
-            this.btnApply.Location = new System.Drawing.Point(398, 313);
+            this.btnApply.Location = new System.Drawing.Point(498, 313);
             this.btnApply.Name = "btnApply";
             this.btnApply.Size = new System.Drawing.Size(90, 27);
             this.btnApply.TabIndex = 6;
@@ -387,7 +389,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(512, 313);
+            this.btnCancel.Location = new System.Drawing.Point(612, 313);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(90, 27);
             this.btnCancel.TabIndex = 7;
@@ -403,7 +405,7 @@
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(457, 167);
+            this.tabControl1.Location = new System.Drawing.Point(557, 167);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(192, 133);
@@ -731,9 +733,9 @@
             this.dataGridViewReplace.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewReplace.Location = new System.Drawing.Point(12, 74);
             this.dataGridViewReplace.Name = "dataGridViewReplace";
-            this.dataGridViewReplace.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dataGridViewReplace.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dataGridViewReplace.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.dataGridViewReplace.Size = new System.Drawing.Size(632, 63);
+            this.dataGridViewReplace.Size = new System.Drawing.Size(745, 70);
             this.dataGridViewReplace.TabIndex = 9;
             this.dataGridViewReplace.Visible = false;
             this.dataGridViewReplace.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dataGridView_CellPainting);
@@ -751,9 +753,9 @@
             this.dataGridViewReplace2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewReplace2.Location = new System.Drawing.Point(12, 74);
             this.dataGridViewReplace2.Name = "dataGridViewReplace2";
-            this.dataGridViewReplace2.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dataGridViewReplace2.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dataGridViewReplace2.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.dataGridViewReplace2.Size = new System.Drawing.Size(632, 63);
+            this.dataGridViewReplace2.Size = new System.Drawing.Size(745, 70);
             this.dataGridViewReplace2.TabIndex = 10;
             this.dataGridViewReplace2.Visible = false;
             this.dataGridViewReplace2.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dataGridView_CellPainting);
@@ -764,7 +766,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(656, 352);
+            this.ClientSize = new System.Drawing.Size(777, 352);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnApply);

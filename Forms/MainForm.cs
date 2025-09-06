@@ -94,19 +94,19 @@ namespace OSPE
             if (_isCapturing)
             {
                 // Capture started
-                btnStartPauseCapture.Text = "Pause Capture";
+                btnStartPauseCapture.Text = "暂停捕获";
                 btnStartPauseCapture.Image = Resources.Pause16;
                 
             }
             else if (_isPaused)
             {
                 // Capture paused
-                btnStartPauseCapture.Text = "Continue   ";
+                btnStartPauseCapture.Text = "继续   ";
                 btnStartPauseCapture.Image = Resources.Play16;
             }
             else
             {
-                btnStartPauseCapture.Text = "Start Capture";
+                btnStartPauseCapture.Text = "开始捕获";
                 btnStartPauseCapture.Image = Resources.Play16;
                 btnClearPacketList.Enabled = false;
             }

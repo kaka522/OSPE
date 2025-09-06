@@ -89,11 +89,12 @@ namespace OSPE
 
         private void DrawDataGridViews()
         {
+
             dataGridViewSearch.TopLeftHeaderCell.Value = "Offset";
             for (var i = 0; i < 501; i++)
             {
                 dataGridViewSearch.Columns.Add("col" + i, i.ToString("D3"));
-                dataGridViewSearch.Columns[i].Width = 30;
+                dataGridViewSearch.Columns[i].Width = 32;
                 ((DataGridViewTextBoxColumn)dataGridViewSearch.Columns[i]).MaxInputLength = 2;
             }
             dataGridViewSearch.Rows.Add();
@@ -103,7 +104,7 @@ namespace OSPE
             for (var i = 0; i < 501; i++)
             {
                 dataGridViewReplace.Columns.Add("col" + i, i.ToString("D3"));
-                dataGridViewReplace.Columns[i].Width = 30;
+                dataGridViewReplace.Columns[i].Width = 32;
                 ((DataGridViewTextBoxColumn)dataGridViewReplace.Columns[i]).MaxInputLength = 2;
             }
             dataGridViewReplace.Rows.Add();
@@ -115,7 +116,7 @@ namespace OSPE
             {
                 j = j + 1;
                 dataGridViewReplace2.Columns.Add("col" + i, j.ToString("D3")); //(j > 0) ? "+" + j.ToString("D3") : 
-                dataGridViewReplace2.Columns[i].Width = 30;
+                dataGridViewReplace2.Columns[i].Width = 32;
                 ((DataGridViewTextBoxColumn)dataGridViewReplace2.Columns[i]).MaxInputLength = 2;
             }
             dataGridViewReplace2.Rows.Add();

@@ -59,6 +59,24 @@ namespace OSPE
         private readonly ImageList _imageList24 = new ImageList();
         private readonly ImageList _imageList32 = new ImageList();
 
+        // 测量函数运行时间的通用方法
+        private static TimeSpan MeasureFunctionTime(Action function)
+        {
+            Stopwatch stopwatch = new Stopwatch();
+
+            // 开始计时
+            stopwatch.Start();
+
+            // 执行目标函数
+            function.Invoke();
+
+            // 停止计时
+            stopwatch.Stop();
+
+            // 返回耗时
+            return stopwatch.Elapsed;
+        }
+
         /// <summary>
         /// Takes a snapshot of all running processes filling a _procInfos list and then sort it by process Start Time (newer processes first)
         /// </summary>
@@ -186,6 +204,17 @@ namespace OSPE
         private void frmSelectProcess_Load(object sender, EventArgs e)
         {
             GetAllRunningProcesses();
+            // 示例：计算TestFunction的运行耗时
+            //var result = MeasureFunctionTime(GetAllRunningProcesses);
+
+            //// 显示结果
+            //MessageBox.Show(
+            //    $"函数运行完成！\n耗时：{result.TotalMilliseconds:F2} 毫秒\n（即 {result.TotalSeconds:F4} 秒）",
+            //    "运行耗时",
+            //    MessageBoxButtons.OK,
+            //    MessageBoxIcon.Information
+            //);
+
             FillGridViewList();
             Cursor.Current = Cursors.Default;
         }
@@ -272,16 +301,6 @@ namespace OSPE
             Process target = _procInfos.First(p => p.Process.Id == Convert.ToInt32(pid)).Process;
             SetForegroundWindow(target.MainWindowHandle);
         }
-
-
-
-
-
-
-
-
-
-
 
     }
 }
