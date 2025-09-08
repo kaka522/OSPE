@@ -144,6 +144,44 @@ namespace OSPE
              
         }
 
+        /// 复制数组并在目标数组容量不足时自动扩充
+        /// </summary>
+        /// <param name="source">源数组</param>
+        /// <param name="sourceIndex">源数组起始索引</param>
+        /// <param name="destination">目标数组（可能被替换为新数组）</param>
+        /// <param name="destinationIndex">目标数组起始索引</param>
+        /// <param name="length">要复制的元素数量</param>
+        /// <returns>处理后的目标数组（可能是原数组或新扩充的数组）</returns>
+        public static T[] CopyWithAutoExpand<T>(T[] source, int sourceIndex, T[] destination, int destinationIndex, int length)
+        {
+            // 检查参数合法性
+            if (source == null) throw new ArgumentNullException("source");
+            if (destination == null) throw new ArgumentNullException("destination");
+            if (sourceIndex < 0) throw new ArgumentOutOfRangeException("sourceIndex");
+            if (destinationIndex < 0) throw new ArgumentOutOfRangeException("destinationIndex");
+            if (length < 0) throw new ArgumentOutOfRangeException("length");
+            //if (sourceIndex + length > source.Length) throw new ArgumentException("源数组数据不足");
+
+            // 计算所需的最小目标数组长度
+            int requiredLength = destinationIndex + length;
+
+            // 如果目标数组长度不足，创建新数组并复制原有元素
+            if (destination.Length < requiredLength)
+            {
+                T[] newDestination = new T[requiredLength];
+                // 复制原有元素到新数组
+                Array.Copy(destination, newDestination, destination.Length);
+                // 新数组中超出原数组长度的部分会自动初始化为默认值（如int为0）
+                destination = newDestination;
+            }
+
+            // 执行实际的数据复制
+            Array.Copy(source, sourceIndex, destination, destinationIndex, length);
+
+            return destination;
+        }
+
+
 
         // Memory Mapped File - Command MMF data
 
@@ -154,6 +192,19 @@ namespace OSPE
             int mmfWriteTimeout = 1000;
             byte[] writtenData;
 
+            //if (sc == ServerCodes.SCODE_INJECTPACKET)
+            //{
+            //    /*
+            //        |   ServerCode   |  SocketID   |   newLength     |                   Packet                  |
+            //        |    1-byte      |   2-bytes   |    2-bytes      |---------------     data      -------------|
+            //        |------------------------------------    writtenData   --------------------------------------|
+            //    */
+            //    writtenData = new byte[1 + 2 + 2 + newLength];
+            //    writtenData[0] = (byte)sc;
+            //    Array.Copy(FilterManager.StructToBytes(socketId), 0, writtenData, 1, 2);
+            //    Array.Copy(FilterManager.StructToBytes(newLength), 0, writtenData, 3, 2);
+            //    Array.Copy(data, 0, writtenData, 5, newLength);
+            //}
             if (sc == ServerCodes.SCODE_INJECTPACKET)
             {
                 /*
@@ -161,12 +212,32 @@ namespace OSPE
                     |    1-byte      |   2-bytes   |    2-bytes      |---------------     data      -------------|
                     |------------------------------------    writtenData   --------------------------------------|
                 */
+                // 检查data是否为null，使用传统方式创建空数组以兼容低版本.NET
+                byte[] actualData = data ?? new byte[0];
+
+                // 如果newLength大于实际数据长度，创建新数组并填充
+                if (newLength > actualData.Length)
+                {
+                    byte[] extendedData = new byte[newLength];
+                    // 复制原有数据
+                    Array.Copy(actualData, extendedData, actualData.Length);
+                    // 剩余部分用0填充（可根据需要修改填充值）
+                    for (int i = actualData.Length; i < newLength; i++)
+                    {
+                        extendedData[i] = 0;
+                    }
+                    actualData = extendedData;
+                }
+
                 writtenData = new byte[1 + 2 + 2 + newLength];
                 writtenData[0] = (byte)sc;
                 Array.Copy(FilterManager.StructToBytes(socketId), 0, writtenData, 1, 2);
                 Array.Copy(FilterManager.StructToBytes(newLength), 0, writtenData, 3, 2);
-                Array.Copy(data, 0, writtenData, 5, newLength);
+                // 使用处理后的实际数据进行拷贝
+                Array.Copy(actualData, 0, writtenData, 5, newLength);
             }
+
+
             else if (sc == ServerCodes.SCODE_STARTFILTERING)
             {
                 /*

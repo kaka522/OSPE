@@ -21,6 +21,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Text;
 using System.Windows.Forms;
 using Be.Windows.Forms;
 using OSPE.Forms;
@@ -72,6 +73,30 @@ namespace OSPE
             Both, Received, Sent, Watch
         }
 
+        private static readonly Encoding GbkEncoding = Encoding.GetEncoding("GBK");
+
+
+        public static string ConvertUnicodeToGbk(string input)
+        {
+ 
+            // 获取Unicode编码的字节数组（UTF-16）
+            byte[] unicodeBytes = Encoding.Unicode.GetBytes(input);
+            int targetLength = input.Length;
+            byte[] gbkBytes = new byte[targetLength];
+
+            // 确保不会访问超出范围的索引
+            int copyLength = Math.Min(targetLength, unicodeBytes.Length / 2);
+
+            // 复制Unicode字节数组中偶数位置的字节
+            for (int i = 0; i < copyLength; i++)
+            {
+                gbkBytes[i] = unicodeBytes[i * 2];
+            }
+ 
+            // 将GBK字节数组转换为字符串
+            return GbkEncoding.GetString(gbkBytes, 0, copyLength);
+        }
+
         /// <summary>
         /// Crea un item de tabla y se almacena en una lista de items.
         /// El item está preparado para ser entregado a la tabla cuando ésta lo requiera.
@@ -83,7 +108,10 @@ namespace OSPE
             if (data.Length > ColDataTextLength)
                 data = data.Substring(0, ColDataTextLength);
 
-            string[] strings = { " " + ListItems.Count, packet.LocalIp + " : " + packet.LocalPort, packet.RemoteIp + " : " + packet.RemotePort, Program.FunctionNameToString(packet.FunctionID), packet.Size.ToString(), data };
+
+            string result = ConvertUnicodeToGbk(data);
+
+            string[] strings = { " " + ListItems.Count, packet.LocalIp + " : " + packet.LocalPort, packet.RemoteIp + " : " + packet.RemotePort, Program.FunctionNameToString(packet.FunctionID), packet.Size.ToString(), result };
             ListItems.Add(new WeListViewItem(strings) {ImageIndex = (int) packet.Direction});
         }
 
@@ -100,7 +128,9 @@ namespace OSPE
             if(data.Length > ColDataTextLength)
                 data = data.Substring(0, ColDataTextLength);
 
-            string[] strings = { " " + id, packet.LocalIp + " : " + packet.LocalPort, packet.RemoteIp + " : " + packet.RemotePort, Program.FunctionNameToString(packet.FunctionID), packet.Size.ToString(), data };
+            string result = ConvertUnicodeToGbk(data);
+
+            string[] strings = { " " + id, packet.LocalIp + " : " + packet.LocalPort, packet.RemoteIp + " : " + packet.RemotePort, Program.FunctionNameToString(packet.FunctionID), packet.Size.ToString(), result };
             ListItems[id] = new WeListViewItem(strings) { ImageIndex = (int)packet.Direction };
         }
 

@@ -126,7 +126,8 @@ int WINAPI DllMain ( void* hDLL, unsigned long dwReason, void*  Reserved) {
                     sw.Write(fctb.Text);
             } catch (Exception ex)
             {
-                txtCompilerOutput.Text = "Not implemented yet.";
+                txtCompilerOutput.Text = "Not implemented yet." + ex.Message;
+                //output.outError("Cannot open process: {0} REASON: {1}", proc.ProcessName, ex.Message);
                 return;
             }
             var proc = new Process();

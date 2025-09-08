@@ -156,8 +156,8 @@ namespace OSPE
         {
             if (e.KeyChar == (char)Keys.Escape || e.KeyChar == (char)Keys.Back)
                 return;
-
-            if (!int.TryParse(e.KeyChar.ToString(), NumberStyles.HexNumber, CultureInfo.InvariantCulture, out int result))
+            int result; // 先声明变量
+            if (!int.TryParse(e.KeyChar.ToString(), NumberStyles.HexNumber, CultureInfo.InvariantCulture, out result))
             {
                 e.Handled = true;
             }

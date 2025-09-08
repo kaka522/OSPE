@@ -66,6 +66,10 @@ namespace OSPE
         }
         public static void ReplaceFromList(int index, SendInfo si)
         {
+            if (_sendList.Count ==0)
+            {
+                return;
+            }
             _sendList.RemoveAt(index);
             AddToList(si);
         }
