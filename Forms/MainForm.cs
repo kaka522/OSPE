@@ -917,7 +917,7 @@ namespace OSPE
 
         private void LoadHotKeys()
         {
-            SetKeyboardHook(ref HotKeys.searchNextKeyboardHook, HotKeys.hook_SearchNext, 114 /* F3 */);
+            SetKeyboardHook(ref HotKeys.searchNextKeyboardHook, HotKeys.hook_SearchNext, 115 /* F4 */);
             if (Settings.HotKeyStartCapture != 0)
                 SetKeyboardHook(ref HotKeys.startCaptureKeyboardHook, HotKeys.hook_StartCapture, Settings.HotKeyStartCapture);
             if (Settings.HotKeyStopCapture != 0)
