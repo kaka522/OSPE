@@ -288,7 +288,7 @@ namespace OSPE
             {
                 DllCommunication.SetTargetPid(lastProc.Id);
                 DllCommunication.StartPacketReaderMMF();
-                this.Text = "OSPE - PID: " + lastProc.Id + " - " + lastProc.ProcessName;
+                this.Text = "XWPE - PID: " + lastProc.Id + " - " + lastProc.ProcessName;
                 this.processInyectedId = lastProc.Id;
                 ActionStartStopFiltering(false);
                 ActionStopCapture();

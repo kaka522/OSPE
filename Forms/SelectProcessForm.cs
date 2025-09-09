@@ -276,7 +276,7 @@ namespace OSPE
                 Settings.LastProcessInjected = target.ProcessName;
                 DllCommunication.SetTargetPid(target.Id);
                 DllCommunication.StartPacketReaderMMF();
-                Program.mainForm.Text = "OSPE - PID: " + target.Id + " - " + target.ProcessName;
+                Program.mainForm.Text = "XWPE - PID: " + target.Id + " - " + target.ProcessName;
                 Program.mainForm.processInyectedId = target.Id;
                 Program.mainForm.ActionStartStopFiltering(false);
                 Program.mainForm.ActionStopCapture();
