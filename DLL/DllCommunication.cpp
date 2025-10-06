@@ -135,8 +135,8 @@ void ProcessPacket(Functions functionId, char* &buffer, int &length, SOCKET sock
 
 	if (breakpoint)
 	{
-		hMainThread = OpenThread(THREAD_ALL_ACCESS, FALSE, GetCurrentThreadId());
-		SuspendThread(hMainThread); // Suspend thread until we receive new data from ospe
+		//hMainThread = OpenThread(THREAD_ALL_ACCESS, FALSE, GetCurrentThreadId());
+		//SuspendThread(hMainThread); // Suspend thread until we receive new data from ospe
 		UINT16 newLength = 0; 
 		newLength = ((UINT8)readData[2] << 8) | ((UINT8)readData[1]); // Set the length for the new packet
 		length = newLength;
